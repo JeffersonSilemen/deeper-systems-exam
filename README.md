@@ -56,23 +56,25 @@ npm run dev
 ```
 The frontend will be available at http://localhost:5173
 
-🔥 Usage
 
-View Users: The main page lists all users with options to edit or delete them.
+## 🔥 Usage
 
-Create a User: Click the Create button, fill in the form, and save.
+- **View Users**: The main page lists all users with options to edit or delete them.
+- **Create a User**: Click the **Create** button, fill in the form, and save.
+- **Edit a User**: Click the **Edit** button in the table or on the user page.
+- **Delete a User**: Click the **Delete** button (requires confirmation).
 
-Edit a User: Click the Edit button in the table or on the user page.
+---
 
-Delete a User: Click the Delete button (requires confirmation).
+## 📌 API Endpoints
 
-📌 API Endpoints
-Method	Endpoint	Description
-GET	/users	Get all users
-POST	/users	Create a new user
-GET	/users/:id	Get a single user by ID
-PUT	/users/:id	Update a user
-DELETE	/users/:id	Delete a user
+| Method | Endpoint     | Description             |
+| ------ | ------------ | ----------------------- |
+| GET    | `/users`     | Get all users           |
+| POST   | `/users`     | Create a new user       |
+| GET    | `/users/:id` | Get a single user by ID |
+| PUT    | `/users/:id` | Update a user           |
+| DELETE | `/users/:id` | Delete a user           |
 
 📜 Folder Structure
 
