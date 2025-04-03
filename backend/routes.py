@@ -7,6 +7,11 @@ from datetime import datetime
 
 routes = Blueprint('routes', __name__)
 
+# Render a message at the root URL
+@routes.route("/")
+def home():
+    return "Server is running :)"
+
 # List all users
 @routes.route('/users', methods=['GET'])
 def get_users():
