@@ -67,42 +67,12 @@ Edit a User: Click the Edit button in the table or on the user page.
 Delete a User: Click the Delete button (requires confirmation).
 
 📌 API Endpoints
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/users
-
-Get all users
-
-POST
-
-/users
-
-Create a new user
-
-GET
-
-/users/:id
-
-Get a single user by ID
-
-PUT
-
-/users/:id
-
-Update a user
-
-DELETE
-
-/users/:id
-
-Delete a user
+Method	Endpoint	Description
+GET	/users	Get all users
+POST	/users	Create a new user
+GET	/users/:id	Get a single user by ID
+PUT	/users/:id	Update a user
+DELETE	/users/:id	Delete a user
 
 📜 Folder Structure
 
