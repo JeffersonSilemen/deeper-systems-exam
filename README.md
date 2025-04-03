@@ -18,9 +18,10 @@ MongoDB Atlas: Cloud-hosted database for easy deployment.
 
 1️⃣ Clone the Repository
 
+```
 git clone https://github.com/JeffersonSilemen/deeper-systems-exam.git
 cd deeper-systems-exam
-
+```
 2️⃣ Setup Backend (Flask API)
 
 Install Dependencies
