@@ -40,6 +40,7 @@ The API should be running at: http://127.0.0.1:5000
 This will insert users into the MongoDB users collection.
 
 3️⃣ Setup Frontend (Vue.js + PrimeVue)
+Open a new terminal on the project folder.
 
 Install Dependencies
 
