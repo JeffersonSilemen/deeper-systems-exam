@@ -78,25 +78,24 @@ The frontend will be available at http://localhost:5173
 
 📜 Folder Structure
 
-backend: Contains the Flask application and related files.
-
-app.py: Main entry point for the backend.
-models.py: Defines data models using Python dataclasses.
-routes.py: Implements API endpoints for CRUD operations.
-parser.py: Script to import data from udata.json into MongoDB.
-config.py: Configuration for MongoDB connection.
-frontend: Contains the Vue.js application.
-
-src/: Source code for the frontend.
-components/: Vue components for dialogs, pages, and tables.
-router.js: Defines application routes.
-main.js: Entry point for the Vue application.
-style.css: Global styles for the application.
-constants: Contains the JSON file (udata.json) with user data to be imported.
-
-requirements.txt: Lists Python dependencies for the backend.
-
-README.md: Documentation for the project.
+```
+📦 deeper-systems-exam
+ ┣ 📂 backend        # Contains the Flask application and related files
+ ┃ ┣ 📜 app.py       # Main entry point for the backend
+ ┃ ┣ 📜 models.py    # Defines data models using Python dataclasses
+ ┃ ┣ 📜 routes.py    # Implements API endpoints for CRUD operations
+ ┃ ┣ 📜 parser.py    # Script to import data from udata.json into MongoDB
+ ┃ ┣ 📜 config.py    # Configuration for MongoDB connection
+ ┣ 📂 frontend       # Contains the Vue.js application
+ ┃ ┣ 📂 src          # Source code for the frontend
+ ┃ ┃ ┣ 📂 components # Vue components for dialogs, pages, and tables
+ ┃ ┃ ┣ 📜 router.js  # Defines application routes
+ ┃ ┃ ┣ 📜 main.js    # Entry point for the Vue application
+ ┃ ┃ ┣ 📜 style.css  # Global styles for the application
+ ┣ 📂 constants      # Contains the JSON file (udata.json) with user data to be imported
+ ┣ 📜 requirements.txt  # Lists Python dependencies for the backend
+ ┣ 📜 README.md      # Documentation for the project
+ ```
 
 📌 Notes
 
