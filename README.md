@@ -1,40 +1,40 @@
-User Management CRUD Application
+# User Management CRUD Application
 
-📌 Project Overview
+## 📌 Project Overview
 
 This is a full-stack CRUD application built with Flask (Python) for the backend, MongoDB Atlas for the database, and Vue.js 3 with PrimeVue for the frontend. The application allows users to be created, read, updated, and deleted. The data is imported from a JSON file into the MongoDB collection using a Python script.
 
-🚀 Features
+## 🚀 Features
 
-User Import Script: Reads a JSON file and inserts data into MongoDB.
+- **User Import Script**: Reads a JSON file and inserts data into MongoDB.
+- **Backend (Flask API)**: Exposes RESTful CRUD operations.
+- **Frontend (Vue.js + PrimeVue)**: Displays users and provides an intuitive UI for managing them.
+- **MongoDB Atlas**: Cloud-hosted database for easy deployment.
 
-Backend (Flask API): Exposes RESTful CRUD operations.
+## 🛠️ Installation & Setup
 
-Frontend (Vue.js + PrimeVue): Displays users and provides an intuitive UI for managing them.
+### 1️⃣ Clone the Repository
 
-MongoDB Atlas: Cloud-hosted database for easy deployment.
-
-🛠️ Installation & Setup
-
-1️⃣ Clone the Repository
-
-```
+```bash
 git clone https://github.com/JeffersonSilemen/deeper-systems-exam.git
 cd deeper-systems-exam
 ```
 2️⃣ Setup Backend (Flask API)
 
 Install Dependencies
-
+```
 python3 -m venv venv  # Create a virtual environment
 source venv/bin/activate  # (On Windows use: venv\Scripts\activate)
 pip install -r requirements.txt  # Install required packages
+```
 
 Configure MongoDB Connection
 
 Run the Flask Server
 
+```
 python3 backend/app.py
+```
 
 The API should be running at: http://127.0.0.1:5000
 
@@ -44,14 +44,15 @@ This will insert users into the MongoDB users collection.
 Open a new terminal on the project folder.
 
 Install Dependencies
-
+```
 cd frontend
 npm install
+```
 
 Start the Vue Application
-
+```
 npm run dev
-
+```
 The frontend will be available at http://localhost:5173
 
 🔥 Usage
